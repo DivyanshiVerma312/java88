@@ -24,5 +24,6 @@ public class HashSet1 {
         hs1.remove(hs2);
         System.out.println(hs1);
         hs1.removeIf( str->str.contains("aa"));
+
     }
 }
